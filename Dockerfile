@@ -1,8 +1,8 @@
 FROM ubuntu
 RUN apt-get -y update
 RUN apt-get  install -y git
-RUN apt-get install -y tomcat8
-RUN apt-get  install -y tomcat8-admin
+RUN apt-get install -y tomcat9
+RUN apt-get  install -y tomcat9-admin
 EXPOSE 9090
 
 
