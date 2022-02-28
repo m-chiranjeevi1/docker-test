@@ -3,6 +3,6 @@ RUN apt-get -y update
 RUN apt-get  install -y git
 RUN apt-get install -y  tomcat9
 RUN apt-get  install -y tomcat9-admin
-EXPOSE 9090
+EXPOSE 8080
 
 
